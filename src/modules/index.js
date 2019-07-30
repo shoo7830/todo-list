@@ -6,5 +6,3 @@ export default combineReducers({
     input, 
     todos
 })
-
-// 리덕수 관련 확인
