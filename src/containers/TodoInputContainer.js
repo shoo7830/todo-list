@@ -10,7 +10,7 @@ import * as todosActions from '../modules/todos';
 class TodoInputContainer extends Component {
     id = 1
     getId = () => {
-        reutrn ++this.id;
+        reutrn ++this.id
     }
 
     handleChange = (e) => {
@@ -35,7 +35,7 @@ class TodoInputContainer extends Component {
         return (
             <TodoInput
                 onChange={handleChange}
-                onInesert={handleInsert}
+                onInsert={handleInsert}
                 value={value} />
         )
     }

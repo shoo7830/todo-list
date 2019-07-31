@@ -5,7 +5,6 @@ import { connect } from  'react-redux';
 import { bindActionCreators } from 'redux';
 
 import * as todosActions from '../modules/todos';
-import { dispatch } from 'rxjs/internal/observable/pairs';
 
 class TodoListContainer extends Component {
     handleToggle = (id) => {
