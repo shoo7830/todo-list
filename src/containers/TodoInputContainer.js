@@ -10,7 +10,7 @@ import * as todosActions from '../modules/todos';
 class TodoInputContainer extends Component {
     id = 1
     getId = () => {
-        reutrn ++this.id
+        return ++this.id;
     }
 
     handleChange = (e) => {
